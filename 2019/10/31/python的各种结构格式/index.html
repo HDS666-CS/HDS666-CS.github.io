@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019/10 | Hexo</title>
+  <title>python的各种结构格式 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;archives&#x2F;2019&#x2F;10&#x2F;index.html">
+  <meta name="description" content="python的列表创建列表1.基本语法[]创建 1a=[10,4,5,&amp;apos;scv&amp;apos;]  2.list()创建 使用list将任何可迭代的数据转化为列表 12a=list(&quot;haifajao&quot;)print(a)  12a=list(range(10))b=list(range(3,15,2))&#x2F;&#x2F;开始数字，结束数字，步长  3.推导创建list 123a=x*2 for x in range(5)pr">
+<meta name="keywords" content="python初级">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python的各种结构格式">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;31&#x2F;python%E7%9A%84%E5%90%84%E7%A7%8D%E7%BB%93%E6%9E%84%E6%A0%BC%E5%BC%8F&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="python的列表创建列表1.基本语法[]创建 1a=[10,4,5,&amp;apos;scv&amp;apos;]  2.list()创建 使用list将任何可迭代的数据转化为列表 12a=list(&quot;haifajao&quot;)print(a)  12a=list(range(10))b=list(range(3,15,2))&#x2F;&#x2F;开始数字，结束数字，步长  3.推导创建list 123a=x*2 for x in range(5)pr">
 <meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2019-11-01T13:35:18.186Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -149,36 +153,125 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-python的各种结构格式" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/31/python%E7%9A%84%E5%90%84%E7%A7%8D%E7%BB%93%E6%9E%84%E6%A0%BC%E5%BC%8F/" class="archive-article-date">
-  	<time datetime="2019-10-31T06:28:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-31</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/31/python%E7%9A%84%E5%90%84%E7%A7%8D%E7%BB%93%E6%9E%84%E6%A0%BC%E5%BC%8F/">python的各种结构格式</a>
+    <h1 class="article-title" itemprop="name">
+      python的各种结构格式
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2019/10/31/python%E7%9A%84%E5%90%84%E7%A7%8D%E7%BB%93%E6%9E%84%E6%A0%BC%E5%BC%8F/" class="archive-article-date">
+  	<time datetime="2019-10-31T06:28:15.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-31</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="python的列表"><a href="#python的列表" class="headerlink" title="python的列表"></a>python的列表</h1><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h2 id="创建列表"><a href="#创建列表" class="headerlink" title="创建列表"></a>创建列表</h2><p>1.基本语法[]创建</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">4</span>,<span class="number">5</span>,<span class="string">'scv'</span>]</span><br></pre></td></tr></table></figure>
+
+<p>2.list()创建</p>
+<p>使用list将任何可迭代的数据转化为列表</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=list(<span class="string">"haifajao"</span>)</span><br><span class="line">print(a)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=list(range(<span class="number">10</span>))</span><br><span class="line">b=list(range(<span class="number">3</span>,<span class="number">15</span>,<span class="number">2</span>))//开始数字，结束数字，步长</span><br></pre></td></tr></table></figure>
+
+<p>3.推导创建list</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=x*<span class="number">2</span> <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">5</span>)</span><br><span class="line">print(<span class="string">'a'</span>)</span><br><span class="line">b=x*<span class="number">2</span> <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">100</span>) <span class="keyword">if</span> x%<span class="number">9</span>==<span class="number">0</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="列表元素的添加"><a href="#列表元素的添加" class="headerlink" title="列表元素的添加"></a>列表元素的添加</h2><p>1.append()方法</p>
+<p>原地修改列表对象，向列表尾部添加对象</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">200</span>,<span class="number">900</span>]</span><br><span class="line">a.append(<span class="number">40</span>)</span><br></pre></td></tr></table></figure>
+
+<p>2.‘+’运算符操作</p>
+<p>不是向尾部添加元素，而是创建新的列表对象，将原列表对象和新添加的元素复制到新的列表对象中，<strong>不建议操作大量数据</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">20</span>,<span class="number">40</span>]</span><br><span class="line">a=a+[<span class="number">50</span>]</span><br></pre></td></tr></table></figure>
+
+<p>3.extend()方法</p>
+<p>将目标列表的所有元素添加到本列表的尾部，属于原地操作，<strong>将两个列表进行整合时，使用该方法</strong></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">20</span>,<span class="number">40</span>]</span><br><span class="line">b=[<span class="number">90.68</span>]</span><br><span class="line">c=a.extebd(b)</span><br></pre></td></tr></table></figure>
+
+<p>4.insert()元素</p>
+<p>将元素插入到指定的位置，涉及大量元素时，不要使用</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">40</span>,<span class="number">60</span>]</span><br><span class="line">a.insert(<span class="number">2</span>,<span class="number">100</span>)</span><br></pre></td></tr></table></figure>
+
+<p>  5.乘法添加</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="string">'jiu'</span>,<span class="number">100</span>]</span><br><span class="line">b=a*<span class="number">3</span></span><br><span class="line">b=[<span class="string">'jiu'</span>,<span class="number">100</span>,<span class="string">'jiu'</span>,<span class="number">100</span>,<span class="string">'jiu'</span>,<span class="number">100</span>]</span><br></pre></td></tr></table></figure>
+
+<h2 id="元素的删除"><a href="#元素的删除" class="headerlink" title="元素的删除"></a>元素的删除</h2><p>1.del删除</p>
+<p>删除指定位置的元素</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">20</span>,<span class="number">30</span>]</span><br><span class="line"><span class="keyword">del</span> a[<span class="number">2</span>]</span><br><span class="line">a=[<span class="number">10</span>,<span class="number">20</span>]</span><br></pre></td></tr></table></figure>
+
+<p>2.pop()删除</p>
+<p>删除并返回元素位置，如果未制定元素，删除最后一个元素</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">5</span>,<span class="number">95</span>,<span class="number">5</span>]</span><br><span class="line">a.pop(<span class="number">3</span>)</span><br><span class="line">a.pop()</span><br></pre></td></tr></table></figure>
+
+<p>3.remove()</p>
+<p>删除初次出现的制定元素，若不存在该元素则抛出异常</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">70</span>,<span class="number">4</span>,,<span class="number">6</span>,<span class="number">4</span>]</span><br><span class="line">a.remove(<span class="number">10</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="索引和计数"><a href="#索引和计数" class="headerlink" title="索引和计数"></a>索引和计数</h2><p>1.索引</p>
+<p>a=[2]</p>
+<p>2.index()获得指定元素在列表首次出现的索引,语法是idnex(value,[start,end])搜索的索引范围</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">70</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">4</span>]</span><br><span class="line">a.index(<span class="number">70</span>)</span><br><span class="line"><span class="number">1</span></span><br><span class="line">a.index(<span class="number">20</span>,<span class="number">3</span>)//从位置<span class="number">3</span>开始搜索第一个<span class="number">20</span></span><br></pre></td></tr></table></figure>
+
+<p>3.count()获得指定元素在列表中出现的次数</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">70</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">4</span>]</span><br><span class="line">a.count(<span class="number">4</span>)</span><br><span class="line"><span class="number">2</span></span><br></pre></td></tr></table></figure>
+
+<p>4.成员资格判断</p>
+<p>利用in来判断</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">70</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">4</span>]</span><br><span class="line"><span class="number">4</span> <span class="keyword">in</span> a </span><br><span class="line"><span class="literal">True</span></span><br><span class="line"><span class="number">20</span> <span class="keyword">not</span> <span class="keyword">in</span> a</span><br><span class="line"><span class="literal">True</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="切片操作"><a href="#切片操作" class="headerlink" title="切片操作"></a>切片操作</h2><p>slice[start,end,step]</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">70</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">4</span>]</span><br><span class="line">a[:]//提取整个列表</span><br><span class="line">a</span><br></pre></td></tr></table></figure>
+
+<h2 id="排序以及逆序以及最大值等"><a href="#排序以及逆序以及最大值等" class="headerlink" title="排序以及逆序以及最大值等"></a>排序以及逆序以及最大值等</h2><p>1.排序</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">70</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">4</span>]</span><br><span class="line">a.sort()//默认升序排列</span><br><span class="line">a.sort(reverse=<span class="literal">True</span>)//降序排列</span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line">random.shuffle(a)//打乱顺序</span><br></pre></td></tr></table></figure>
+
+<p>2.创建列表的排序</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">70</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">4</span>]</span><br><span class="line">a=sorted(a)</span><br></pre></td></tr></table></figure>
+
+<p>3.reverse()返回迭代器</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">a=[<span class="number">10</span>,<span class="number">70</span>,<span class="number">4</span>,<span class="number">6</span>,<span class="number">4</span>]</span><br><span class="line">c=reversed(a)</span><br><span class="line">list(c)</span><br><span class="line">[<span class="number">4</span>,<span class="number">6</span>,<span class="number">4</span>,<span class="number">70</span>,<span class="number">10</span>]</span><br></pre></td></tr></table></figure>
+
+<h2 id="二维列表"><a href="#二维列表" class="headerlink" title="二维列表"></a>二维列表</h2><p>储存一维，二维的列表</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">a=[</span><br><span class="line">  [<span class="string">'A'</span>,<span class="number">13</span>,<span class="string">'a'</span>]</span><br><span class="line">  [<span class="string">'B'</span>,<span class="number">13</span>,<span class="string">'b'</span>]</span><br><span class="line">  [<span class="string">'C'</span>,<span class="number">13</span>,<span class="string">'c'</span>]</span><br><span class="line">]</span><br></pre></td></tr></table></figure>
+
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -190,73 +283,106 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/31/python%E7%9A%84%E5%90%84%E7%A7%8D%E7%BB%93%E6%9E%84%E6%A0%BC%E5%BC%8F/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/24/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/" class="archive-article-date">
-  	<time datetime="2019-10-24T11:37:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-24</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2019/10/24/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">二分查找</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/24/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/">二分查找</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/10/21/sort/" class="archive-article-date">
-  	<time datetime="2019-10-21T12:03:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-21</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/10/21/sort/">sort</a>
-    </h1>
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
 
 
           </div>
@@ -279,8 +405,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
