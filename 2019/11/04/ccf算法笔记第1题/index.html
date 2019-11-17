@@ -6,17 +6,19 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>sort | Hexo</title>
+  <title>ccf算法笔记第1题 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="排序插入排序插入排序类似于玩牌，遍历数据集，第2个和第1个比较，如果第2个数小于第1个数，交换，第3个数和第2个数以及第1个数比较，如果第3个数比第2个数或者第一个数小交换，依次类推 123456789def insertionsort(lst):    n = len(lst)    for i in range(1, n):        for j in range(i, 0, -1):">
+  <meta name="description" content="title: ccf算法笔记date: 2019-11-04 19:12:43tags:  ccf算法  算法1.中位数，最大值和最小值 123456n=int(input())s=list(map(int,input.split()))mid=(a[(n-1)&#x2F;&#x2F;2]+a[(n&#x2F;&#x2F;2)])&#x2F;2if int(mid) ==mid   mid=int(mid)print(max(a),mid,min">
 <meta property="og:type" content="article">
-<meta property="og:title" content="sort">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;21&#x2F;sort&#x2F;index.html">
+<meta property="og:title" content="ccf算法笔记第1题">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;04&#x2F;ccf%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0%E7%AC%AC1%E9%A2%98&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="排序插入排序插入排序类似于玩牌，遍历数据集，第2个和第1个比较，如果第2个数小于第1个数，交换，第3个数和第2个数以及第1个数比较，如果第3个数比第2个数或者第一个数小交换，依次类推 123456789def insertionsort(lst):    n = len(lst)    for i in range(1, n):        for j in range(i, 0, -1):">
+<meta property="og:description" content="title: ccf算法笔记date: 2019-11-04 19:12:43tags:  ccf算法  算法1.中位数，最大值和最小值 123456n=int(input())s=list(map(int,input.split()))mid=(a[(n-1)&#x2F;&#x2F;2]+a[(n&#x2F;&#x2F;2)])&#x2F;2if int(mid) ==mid   mid=int(mid)print(max(a),mid,min">
 <meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-24T12:01:56.193Z">
+<meta property="og:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;Users&#x2F;hds&#x2F;Desktop&#x2F;image&#x2F;aHR0cDovLzExOC4xOTAuMjAuMTYyL1JlcXVpcmVGaWxlLmRvP2ZpZD1iN0dnNjRlOQ.png">
+<meta property="og:updated_time" content="2019-11-15T05:27:04.307Z">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http:&#x2F;&#x2F;yoursite.com&#x2F;Users&#x2F;hds&#x2F;Desktop&#x2F;image&#x2F;aHR0cDovLzExOC4xOTAuMjAuMTYyL1JlcXVpcmVGaWxlLmRvP2ZpZD1iN0dnNjRlOQ.png">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -152,34 +154,264 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-sort" class="article article-type-post " itemscope itemprop="blogPost">
+            <article id="post-ccf算法笔记第1题" class="article article-type-post " itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 class="article-title" itemprop="name">
-      sort
+      ccf算法笔记第1题
     </h1>
   
 
         
-        <a href="/2019/10/21/sort/" class="archive-article-date">
-  	<time datetime="2019-10-21T12:03:13.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-10-21</time>
+        <a href="/2019/11/04/ccf%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0%E7%AC%AC1%E9%A2%98/" class="archive-article-date">
+  	<time datetime="2019-11-04T11:12:43.856Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-04</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h1><h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><p>插入排序类似于玩牌，遍历数据集，第2个和第1个比较，如果第2个数小于第1个数，交换，第3个数和第2个数以及第1个数比较，如果第3个数比第2个数或者第一个数小交换，依次类推</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">insertionsort</span><span class="params">(lst)</span>:</span></span><br><span class="line"></span><br><span class="line">    n = len(lst)</span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>, n):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> range(i, <span class="number">0</span>, <span class="number">-1</span>):</span><br><span class="line">            <span class="keyword">if</span> lst[j] &lt; lst[j - <span class="number">1</span>]:</span><br><span class="line">                tem=lst[j<span class="number">-1</span>]</span><br><span class="line">                lst[j<span class="number">-1</span>]=lst[j]</span><br><span class="line">                lst[j]=tem</span><br></pre></td></tr></table></figure>
+        <p>title: ccf算法笔记<br>date: 2019-11-04 19:12:43<br>tags:  ccf算法 </p>
+<h1 id="算法"><a href="#算法" class="headerlink" title="算法"></a>算法</h1><h2 id="1-中位数，最大值和最小值"><a href="#1-中位数，最大值和最小值" class="headerlink" title="1.中位数，最大值和最小值"></a>1.中位数，最大值和最小值</h2><p><img src="/Users/hds/Desktop/image/aHR0cDovLzExOC4xOTAuMjAuMTYyL1JlcXVpcmVGaWxlLmRvP2ZpZD1iN0dnNjRlOQ.png" alt="aHR0cDovLzExOC4xOTAuMjAuMTYyL1JlcXVpcmVGaWxlLmRvP2ZpZD1iN0dnNjRlOQ"></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">n=int(input())</span><br><span class="line">s=list(map(int,input.split()))</span><br><span class="line">mid=(a[(n<span class="number">-1</span>)//<span class="number">2</span>]+a[(n//<span class="number">2</span>)])/<span class="number">2</span></span><br><span class="line"><span class="keyword">if</span> int(mid) ==mid</span><br><span class="line">   mid=int(mid)</span><br><span class="line">print(max(a),mid,min(a))</span><br></pre></td></tr></table></figure>
 
-<h1 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h1><p>冒泡排序类似于插入排序，冒泡排序类似于排队，第1个数和第2个数比较，较大的数字排至第2个，随后将其与第3个数比较，较大的数在第3个，最后最大的数会排到最后</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">bubbling_sort</span><span class="params">(list)</span>:</span></span><br><span class="line">    <span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">0</span>,len(list),<span class="number">1</span>):</span><br><span class="line">        <span class="keyword">for</span> j <span class="keyword">in</span> range(<span class="number">0</span>,len(list)-i<span class="number">-1</span>,<span class="number">1</span>):</span><br><span class="line">            <span class="keyword">if</span> list[j] &gt; list[j + <span class="number">1</span>]:</span><br><span class="line">                  list[j], list[j + <span class="number">1</span>] =                			 list[j + <span class="number">1</span>], list[j]</span><br></pre></td></tr></table></figure>
+<h2 id="2-小明上学"><a href="#2-小明上学" class="headerlink" title="2.小明上学"></a>2.小明上学</h2><p>题目背景</p>
+<p>　　小明是汉东省政法大学附属中学的一名学生，他每天都要骑自行车往返于家和学校。为了能尽可能充足地睡眠，他希望能够预计自己上学所需要的时间。他上学需要经过数段道路，相邻两段道路之间设有至多一盏红绿灯。<br>　　京州市的红绿灯是这样工作的：每盏红绿灯有红、黄、绿三盏灯和一个能够显示倒计时的显示牌。假设红绿灯被设定为红灯 r 秒，黄灯 y 秒，绿灯 g 秒，那么从 0 时刻起，[0,r) 秒内亮红灯，车辆不许通过；[r, r+g) 秒内亮绿灯，车辆允许通过；[r+g, r+g+y) 秒内亮黄灯，车辆不许通过，然后依次循环。倒计时的显示牌上显示的数字 l（l &gt; 0）是指距离下一次信号灯变化的秒数。</p>
+<p>问题描述</p>
+<p>　　一次上学的路上，小明记录下了经过每段路的时间，和各个红绿灯在小明到达路口时的颜色和倒计时秒数。希望你帮忙计算此次小明上学所用的时间。</p>
+<p>输入格式</p>
+<p>　　输入的第一行包含空格分隔的三个正整数 r、y、g，表示红绿灯的设置。这三个数均不超过 106。<br>　　输入的第二行包含一个正整数 n（n ≤ 100），表示小明总共经过的道路段数和看到的红绿灯数目。<br>　　接下来的 n 行，每行包含空格分隔的两个整数 k、t。k=0 表示经过了一段道路，耗时 t 秒，此处 t 不超过 106；k=1、2、3 时，分别表示看到了一个红灯、黄灯、绿灯，且倒计时显示牌上显示的数字是 t，此处 t 分别不会超过 r、y、g。</p>
+<p>输出格式</p>
+<p>　　输出一个数字，表示此次小明上学所用的时间。</p>
+<p>样例输入</p>
+<p>30 3 30<br>8<br>0 10<br>1 5<br>0 11<br>2 2<br>0 6<br>0 3<br>3 10<br>0 3</p>
+<p>样例输出</p>
+<p>70</p>
+<p>样例说明</p>
+<p>　　小明先经过第一段道路，用时 10 秒，然后等待 5 秒的红灯，再经过第二段道路，用时 11 秒，然后等待 2 秒的黄灯和 30 秒的红灯，再经过第三段、第四段道路，分别用时6、3秒，然后通过绿灯，再经过最后一段道路，用时 3 秒。共计 10 + 5 + 11 + 2 + 30 + 6 + 3 + 3=70 秒。</p>
+<p>评测用例规模与约定</p>
+<p>　　测试点 1, 2 中不存在任何信号灯。<br>　　测试点 3, 4 中所有的信号灯在被观察时均为绿灯。<br>　　测试点 5, 6 中所有的信号灯在被观察时均为红灯。<br>　　测试点 7, 8 中所有的信号灯在被观察时均为黄灯。<br>　　测试点 9, 10 中将出现各种可能的情况。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">solve</span><span class="params">()</span>:</span></span><br><span class="line">	r,y,g=map(int,input().spilt())</span><br><span class="line">	n=int(input())</span><br><span class="line">	total_time=<span class="number">0</span></span><br><span class="line">	<span class="keyword">for</span> i <span class="keyword">in</span> range(n):</span><br><span class="line">		light_type,light_time=map(int,input().spilt())</span><br><span class="line">		<span class="keyword">if</span> light_type==<span class="number">0</span>:</span><br><span class="line">			total_time +=light_time</span><br><span class="line">		<span class="keyword">elif</span> light_type==<span class="number">1</span>:</span><br><span class="line">			total_timr+=light_time</span><br><span class="line">		<span class="keyword">elif</span> light_type==<span class="number">2</span>: //黄灯等待时间</span><br><span class="line">			total_time+=light_time</span><br><span class="line">			total_time+=r</span><br><span class="line">		<span class="keyword">elif</span> light_type==<span class="number">3</span>:</span><br><span class="line">			<span class="keyword">pass</span></span><br><span class="line">	print(total_time)</span><br></pre></td></tr></table></figure>
 
-<h1 id="快速排序"><a href="#快速排序" class="headerlink" title="快速排序"></a>快速排序</h1><p>快速排序利用递归的方式，进行实现，从数组中选择一个基准数，一般选择最左边的数作为基准数，从右边检索寻找比基准数小的，再从左边寻找比基准数小的，如果检索到，停下，交换两个元素，再进行检索，交换后继续检索，直至相遇，第一轮循环完成，先排左边，再排右边</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">quickSort</span><span class="params">(list, start, end)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> start&gt;end:</span><br><span class="line">        <span class="keyword">return</span></span><br><span class="line">    i, j = start, end</span><br><span class="line">    flag = list[start]</span><br><span class="line">    <span class="keyword">while</span> <span class="literal">True</span>:</span><br><span class="line">        <span class="comment">#先从右往左找</span></span><br><span class="line">        <span class="keyword">while</span> j&gt;i <span class="keyword">and</span> list[j] &gt;= flag:</span><br><span class="line">            j = j - <span class="number">1</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">#再从左往右找</span></span><br><span class="line">        <span class="keyword">while</span> i&lt; j <span class="keyword">and</span> list[i] &lt;= flag:</span><br><span class="line">            i += <span class="number">1</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> i &lt; j:</span><br><span class="line">            list[i], list[j] = list[j], list[i]</span><br><span class="line">        <span class="keyword">elif</span> i == j:</span><br><span class="line">            <span class="comment">#当左右相等时第一次递归结束</span></span><br><span class="line">            list[start], list[i] = list[i], list[start]</span><br><span class="line">            <span class="keyword">break</span></span><br><span class="line">    quickSort(list,start, i<span class="number">-1</span>)</span><br><span class="line">    quickSort(list, i+<span class="number">1</span>, end)</span><br></pre></td></tr></table></figure>
+<h2 id="3-卖菜"><a href="#3-卖菜" class="headerlink" title="3.卖菜"></a>3.卖菜</h2><p>问题描述</p>
+<p>　　在一条街上有n个卖菜的商店，按1至n的顺序排成一排，这些商店都卖一种蔬菜。<br>　　第一天，每个商店都自己定了一个价格。店主们希望自己的菜价和其他商店的一致，第二天，每一家商店都会根据他自己和相邻商店的价格调整自己的价格。具体的，每家商店都会将第二天的菜价设置为自己和相邻商店第一天菜价的平均值（用去尾法取整）。<br>　　注意，编号为1的商店只有一个相邻的商店2，编号为n的商店只有一个相邻的商店n-1，其他编号为i的商店有两个相邻的商店i-1和i+1。<br>　　给定第一天各个商店的菜价，请计算第二天每个商店的菜价。</p>
+<p>输入格式</p>
+<p>　　输入的第一行包含一个整数n，表示商店的数量。<br>　　第二行包含n个整数，依次表示每个商店第一天的菜价。</p>
+<p>输出格式</p>
+<p>　　输出一行，包含n个正整数，依次表示每个商店第二天的菜价。</p>
+<p>样例输入</p>
+<p>8<br>4 1 3 1 6 5 17 9</p>
+<p>样例输出</p>
+<p>2 2 1 3 4 9 10 13</p>
+<p>数据规模和约定</p>
+<p>　　对于所有评测用例，2 ≤ n ≤ 1000，第一天每个商店的菜价为不超过10000的正整数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">n = int(input())</span><br><span class="line">a = list(map(int,input().split()))</span><br><span class="line">b=[]</span><br><span class="line"><span class="comment">#计算第二天菜价</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(n):</span><br><span class="line">    <span class="keyword">if</span>(i==<span class="number">0</span>):</span><br><span class="line">        b.append((a[<span class="number">0</span>]+a[<span class="number">1</span>])//<span class="number">2</span>)</span><br><span class="line">    <span class="keyword">elif</span>(i==n<span class="number">-1</span>):</span><br><span class="line">        b.append((a[<span class="number">-2</span>]+a[<span class="number">-1</span>])//<span class="number">2</span>)</span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        b.append((a[i<span class="number">-1</span>]+a[i]+a[i+<span class="number">1</span>])//<span class="number">3</span>)</span><br><span class="line"><span class="comment">#输出</span></span><br><span class="line">print(<span class="string">" "</span>.join(map(str,b)))</span><br></pre></td></tr></table></figure>
+
+<h2 id="4-最小差值"><a href="#4-最小差值" class="headerlink" title="4.最小差值"></a>4.最小差值</h2><p>问题描述</p>
+<p>　　给定n个数，请找出其中相差（差的绝对值）最小的两个数，输出它们的差值的绝对值。</p>
+<p>输入格式</p>
+<p>　　输入第一行包含一个整数n。<br>　　第二行包含n个正整数，相邻整数之间使用一个空格分隔。</p>
+<p>输出格式</p>
+<p>　　输出一个整数，表示答案。</p>
+<p>样例输入</p>
+<p>5<br>1 5 4 8 20</p>
+<p>样例输出</p>
+<p>1</p>
+<p>样例说明</p>
+<p>　　相差最小的两个数是5和4，它们之间的差值是1。</p>
+<p>样例输入</p>
+<p>5<br>9 3 6 1 3</p>
+<p>样例输出</p>
+<p>0</p>
+<p>样例说明</p>
+<p>　　有两个相同的数3，它们之间的差值是0.</p>
+<p>数据规模和约定</p>
+<p>　　对于所有评测用例，2 ≤ n ≤ 1000，每个给定的整数都是不超过10000的正整数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">n=int(input())</span><br><span class="line">li=list(mao(int,input().spilt()))</span><br><span class="line">diff=list(map(<span class="keyword">lambda</span> x,y:y-x,li[:<span class="number">-1</span>],li[<span class="number">1</span>:]))</span><br><span class="line">print(min(diff))</span><br></pre></td></tr></table></figure>
+
+<h2 id="5-跳一跳"><a href="#5-跳一跳" class="headerlink" title="5.跳一跳"></a>5.跳一跳</h2><p>问题描述</p>
+<p>　　近来，跳一跳这款小游戏风靡全国，受到不少玩家的喜爱。<br>　　简化后的跳一跳规则如下：玩家每次从当前方块跳到下一个方块，如果没有跳到下一个方块上则游戏结束。<br>　　如果跳到了方块上，但没有跳到方块的中心则获得1分；跳到方块中心时，若上一次的得分为1分或这是本局游戏的第一次跳跃则此次得分为2分，否则此次得分比上一次得分多两分（即连续跳到方块中心时，总得分将+2，+4，+6，+8…）。<br>　　现在给出一个人跳一跳的全过程，请你求出他本局游戏的得分（按照题目描述的规则）。</p>
+<p>输入格式</p>
+<p>　　输入包含多个数字，用空格分隔，每个数字都是1，2，0之一，1表示此次跳跃跳到了方块上但是没有跳到中心，2表示此次跳跃跳到了方块上并且跳到了方块中心，0表示此次跳跃没有跳到方块上（此时游戏结束）。</p>
+<p>输出格式</p>
+<p>　　输出一个整数，为本局游戏的得分（在本题的规则下）。</p>
+<p>样例输入</p>
+<p>1 1 2 2 2 1 1 2 2 0</p>
+<p>样例输出</p>
+<p>22</p>
+<p>数据规模和约定</p>
+<p>　　对于所有评测用例，输入的数字不超过30个，保证0正好出现一次且为最后一个数字。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">score=<span class="number">0</span></span><br><span class="line">last=<span class="number">1</span></span><br><span class="line">li=list(map(int,input().spilt()))</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> li:</span><br><span class="line">	<span class="keyword">if</span> i==<span class="number">0</span>:</span><br><span class="line">    <span class="keyword">break</span></span><br><span class="line">  <span class="keyword">elif</span> i==<span class="number">1</span>:</span><br><span class="line">    last=<span class="number">1</span></span><br><span class="line">    score+=i</span><br><span class="line">   <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">if</span> last==<span class="number">1</span>: <span class="comment">#上一次的得分为1分或这是本局游戏的第一次</span></span><br><span class="line">         last=<span class="number">2</span>;</span><br><span class="line">        <span class="keyword">else</span>:<span class="comment">#连续跳到中心</span></span><br><span class="line">            last=last+<span class="number">2</span></span><br><span class="line">        score += last</span><br><span class="line">print(score)</span><br></pre></td></tr></table></figure>
+
+<h2 id="6-打酱油"><a href="#6-打酱油" class="headerlink" title="6.打酱油"></a>6.打酱油</h2><p>问题描述</p>
+<p>　　小明带着N元钱去买酱油。酱油10块钱一瓶，商家进行促销，每买3瓶送1瓶，或者每买5瓶送2瓶。请问小明最多可以得到多少瓶酱油。</p>
+<p>输入格式</p>
+<p>　　输入的第一行包含一个整数N，表示小明可用于买酱油的钱数。N是10的整数倍，N不超过300。</p>
+<p>输出格式</p>
+<p>　　输出一个整数，表示小明最多可以得到多少瓶酱油。</p>
+<p>样例输入</p>
+<p>40</p>
+<p>样例输出</p>
+<p>5</p>
+<p>样例说明</p>
+<p>　　把40元分成30元和10元，分别买3瓶和1瓶，其中3瓶送1瓶，共得到5瓶。</p>
+<p>样例输入</p>
+<p>80</p>
+<p>样例输出</p>
+<p>11</p>
+<p>样例说明</p>
+<p>　　把80元分成30元和50元，分别买3瓶和5瓶，其中3瓶送1瓶，5瓶送2瓶，共得到11瓶。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">n=int(input())</span><br><span class="line">x_1=n//<span class="number">50</span></span><br><span class="line">n=n%<span class="number">50</span></span><br><span class="line">x_2=n//<span class="number">30</span></span><br><span class="line">n=n%<span class="number">30</span></span><br><span class="line">x_3=n//<span class="number">10</span></span><br><span class="line">print(x_1*<span class="number">7</span>+x_2*<span class="number">4</span>+x_3)</span><br></pre></td></tr></table></figure>
+
+<h2 id="7-分蛋糕"><a href="#7-分蛋糕" class="headerlink" title="7.分蛋糕"></a>7.分蛋糕</h2><p>问题描述</p>
+<p>　　小明今天生日，他有n块蛋糕要分给朋友们吃，这n块蛋糕（编号为1到n）的重量分别为a1, a2, …, an。小明想分给每个朋友至少重量为k的蛋糕。小明的朋友们已经排好队准备领蛋糕，对于每个朋友，小明总是先将自己手中编号最小的蛋糕分给他，当这个朋友所分得蛋糕的重量不到k时，再继续将剩下的蛋糕中编号最小的给他，直到小明的蛋糕分完或者这个朋友分到的蛋糕的总重量大于等于k。<br>　　请问当小明的蛋糕分完时，总共有多少个朋友分到了蛋糕。</p>
+<p>输入格式</p>
+<p>　　输入的第一行包含了两个整数n, k，意义如上所述。<br>　　第二行包含n个正整数，依次表示a1, a2, …, an。</p>
+<p>输出格式</p>
+<p>　　输出一个整数，表示有多少个朋友分到了蛋糕。</p>
+<p>样例输入</p>
+<p>6 9<br>2 6 5 6 3 5</p>
+<p>样例输出</p>
+<p>3</p>
+<p>样例说明</p>
+<p>　　第一个朋友分到了前3块蛋糕，第二个朋友分到了第4、5块蛋糕，第三个朋友分到了最后一块蛋糕。</p>
+<p>评测用例规模与约定</p>
+<p>　　对于所有评测用例，1 ≤ n ≤ 1000，1 ≤ k ≤ 10000，1 ≤ ai ≤ 1000。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">n=int(inout())</span><br><span class="line">a=list(int,input().spilt())</span><br><span class="line">f=<span class="number">1</span>//朋友的数量</span><br><span class="line">nowk=<span class="number">0</span>//当前朋友分到的蛋糕重量</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> a:</span><br><span class="line">  nowk +=i</span><br><span class="line">  <span class="keyword">if</span>(nowk&gt;=k):</span><br><span class="line">    nowk=<span class="number">0</span></span><br><span class="line">    f+=<span class="number">1</span></span><br><span class="line"><span class="keyword">if</span>(nowk !=<span class="number">0</span>):</span><br><span class="line">  f+=<span class="number">1</span></span><br><span class="line"> print(f)</span><br></pre></td></tr></table></figure>
+
+<h2 id="8-中间数"><a href="#8-中间数" class="headerlink" title="8.中间数"></a>8.中间数</h2><p>问题描述</p>
+<p>　　在一个整数序列a1, a2, …, an中，如果存在某个数，大于它的整数数量等于小于它的整数数量，则称其为中间数。在一个序列中，可能存在多个下标不相同的中间数，这些中间数的值是相同的。<br>　　给定一个整数序列，请找出这个整数序列的中间数的值。</p>
+<p>输入格式</p>
+<p>　　输入的第一行包含了一个整数n，表示整数序列中数的个数。<br>　　第二行包含n个正整数，依次表示a1, a2, …, an。</p>
+<p>输出格式</p>
+<p>　　如果约定序列的中间数存在，则输出中间数的值，否则输出-1表示不存在中间数。</p>
+<p>样例输入</p>
+<p>6<br>2 6 5 6 3 5</p>
+<p>样例输出</p>
+<p>5</p>
+<p>样例说明</p>
+<p>　　比5小的数有2个，比5大的数也有2个。</p>
+<p>样例输入</p>
+<p>4<br>3 4 6 7</p>
+<p>样例输出</p>
+<p>-1</p>
+<p>样例说明</p>
+<p>　　在序列中的4个数都不满足中间数的定义。</p>
+<p>样例输入</p>
+<p>5<br>3 4 6 6 7</p>
+<p>样例输出</p>
+<p>-1</p>
+<p>样例说明</p>
+<p>　　在序列中的5个数都不满足中间数的定义。</p>
+<p>评测用例规模与约定</p>
+<p>　　对于所有评测用例，1 ≤ <em>n</em> ≤ 1000，1 ≤ <em>ai</em> ≤ 1000</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">n=int(input())</span><br><span class="line">a=list(map(int,input().spilt()))</span><br><span class="line">a.sort()</span><br><span class="line">mid=n//<span class="number">2</span></span><br><span class="line">left=n//<span class="number">2</span></span><br><span class="line">right=n//<span class="number">2</span></span><br><span class="line"><span class="keyword">while</span> left&lt;<span class="number">0</span> <span class="keyword">and</span> a[mid]==a[left<span class="number">-1</span>]:</span><br><span class="line">  left -=<span class="number">1</span></span><br><span class="line"><span class="keyword">while</span> right &gt;n<span class="number">-1</span> <span class="keyword">and</span> a[mid]==a[right=<span class="number">1</span>]:</span><br><span class="line">  after+=<span class="number">1</span></span><br><span class="line"><span class="keyword">if</span>(left+after==n<span class="number">-1</span>):</span><br><span class="line">   print(a[mid])</span><br><span class="line"><span class="keyword">else</span>:</span><br><span class="line">  print(<span class="number">-1</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="9-最大波动"><a href="#9-最大波动" class="headerlink" title="9.最大波动"></a>9.最大波动</h2><p>问题描述</p>
+<p>　　小明正在利用股票的波动程度来研究股票。小明拿到了一只股票每天收盘时的价格，他想知道，这只股票连续几天的最大波动值是多少，即在这几天中某天收盘价格与前一天收盘价格之差的绝对值最大是多少。</p>
+<p>输入格式</p>
+<p>　　输入的第一行包含了一个整数n，表示小明拿到的收盘价格的连续天数。<br>　　第二行包含n个正整数，依次表示每天的收盘价格。</p>
+<p>输出格式</p>
+<p>　　输出一个整数，表示这只股票这n天中的最大波动值。</p>
+<p>样例输入</p>
+<p>6<br>2 5 5 7 3 5</p>
+<p>样例输出</p>
+<p>4</p>
+<p>样例说明</p>
+<p>　　第四天和第五天之间的波动最大，波动值为|3-7|=4。</p>
+<p>评测用例规模与约定</p>
+<p>　　对于所有评测用例，2 ≤ n ≤ 1000。股票每一天的价格为1到10000之间的整数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">n=int(input())</span><br><span class="line">a=list(map(int,input().spilt()))</span><br><span class="line">max=<span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>,n):</span><br><span class="line">   <span class="keyword">if</span>(abs(a[i]-a[i<span class="number">-1</span>])&gt;max):</span><br><span class="line">      max=abs(a[i]-a[i<span class="number">-1</span>])</span><br><span class="line"> print(max)</span><br></pre></td></tr></table></figure>
+
+<h2 id="10-折点计数"><a href="#10-折点计数" class="headerlink" title="10.折点计数"></a>10.折点计数</h2><p>问题描述</p>
+<p>　　给定<em>n</em>个整数表示一个商店连续<em>n</em>天的销售量。如果某天之前销售量在增长，而后一天销售量减少，则称这一天为折点，反过来如果之前销售量减少而后一天销售量增长，也称这一天为折点。其他的天都不是折点。</p>
+<p>给定n个整数a1, a2, …, an表示销售量，请计算出这些天总共有多少个折点。<br>　　为了减少歧义，我们给定的数据保证：在这n天中相邻两天的销售量总是不同的，即ai-1≠ai。注意，如果两天不相邻，销售量可能相同。</p>
+<p>输入格式</p>
+<p>　　输入的第一行包含一个整数n。<br>　　第二行包含n个整数，用空格分隔，分别表示a1, a2, …, an。</p>
+<p>输出格式</p>
+<p>　　输出一个整数，表示折点出现的数量。</p>
+<p>样例输入</p>
+<p>7<br>5 4 1 2 3 6 4</p>
+<p>样例输出</p>
+<p>2</p>
+<p>评测用例规模与约定</p>
+<p>　　所有评测用例满足：1 ≤ n ≤ 1000，每天的销售量是不超过10000的非负整数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">n=int(input())</span><br><span class="line">a=list(map(int,input().spilt()))</span><br><span class="line">count=<span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> rangr(<span class="number">1</span>,n<span class="number">-1</span>):</span><br><span class="line">		<span class="keyword">if</span>(a[i]&lt;a[i<span class="number">-1</span>] <span class="keyword">and</span> a[i]&lt;a[i<span class="number">-1</span>]) <span class="keyword">or</span> (a[i]&gt;a[i+<span class="number">1</span>] <span class="keyword">and</span> a[i]&gt;a[i<span class="number">-1</span>]):</span><br><span class="line">      count+=<span class="number">1</span></span><br><span class="line">print(count)</span><br></pre></td></tr></table></figure>
+
+<h2 id="11-数位之和"><a href="#11-数位之和" class="headerlink" title="11.数位之和"></a>11.数位之和</h2><p>问题描述</p>
+<p>　　给定一个十进制整数n，输出n的各位数字之和。</p>
+<p>输入格式</p>
+<p>　　输入一个整数n。</p>
+<p>输出格式</p>
+<p>　　输出一个整数，表示答案。</p>
+<p>样例输入</p>
+<p>20151220</p>
+<p>样例输出</p>
+<p>13</p>
+<p>样例说明</p>
+<p>　　20151220的各位数字之和为2+0+1+5+1+2+2+0=13。</p>
+<p>评测用例规模与约定</p>
+<p>　　</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(sun(map(int,input().spilt())))</span><br></pre></td></tr></table></figure>
+
+<h2 id="12-图像旋转"><a href="#12-图像旋转" class="headerlink" title="12.图像旋转"></a>12.图像旋转</h2><p>问题描述</p>
+<p>　　旋转是图像处理的基本操作，在这个问题中，你需要将一个图像逆时针旋转90度。<br>　　计算机中的图像表示可以用一个矩阵来表示，为了旋转一个图像，只需要将对应的矩阵旋转即可。</p>
+<p>输入格式</p>
+<p>　　输入的第一行包含两个整数n, m，分别表示图像矩阵的行数和列数。<br>　　接下来n行每行包含m个整数，表示输入的图像。</p>
+<p>输出格式</p>
+<p>　　输出m行，每行包含n个整数，表示原始矩阵逆时针旋转90度后的矩阵。</p>
+<p>样例输入</p>
+<p>2 3<br>1 5 3<br>3 2 4</p>
+<p>样例输出</p>
+<p>3 4<br>5 2<br>1 3</p>
+<p>评测用例规模与约定</p>
+<p>　　1 ≤ n, m ≤ 1,000，矩阵中的数都是不超过1000的非负整数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">n,m=map(int,input().spilt())</span><br><span class="line">img = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(n):</span><br><span class="line">    a = list(map(int,input().split()))</span><br><span class="line">    img.append(a)</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(m):</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> range(n):</span><br><span class="line">        print(img[j][m<span class="number">-1</span>-i],end=<span class="string">" "</span>)</span><br><span class="line">    print()</span><br></pre></td></tr></table></figure>
+
+<h2 id="13-门禁系统"><a href="#13-门禁系统" class="headerlink" title="13.门禁系统"></a>13.门禁系统</h2><p>问题描述</p>
+<p>　　涛涛最近要负责图书馆的管理工作，需要记录下每天读者的到访情况。每位读者有一个编号，每条记录用读者的编号来表示。给出读者的来访记录，请问每一条记录中的读者是第几次出现。</p>
+<p>输入格式</p>
+<p>　　输入的第一行包含一个整数n，表示涛涛的记录条数。<br>　　第二行包含n个整数，依次表示涛涛的记录中每位读者的编号。</p>
+<p>输出格式</p>
+<p>　　输出一行，包含n个整数，由空格分隔，依次表示每条记录中的读者编号是第几次出现。</p>
+<p>样例输入</p>
+<p>5<br>1 2 1 1 3</p>
+<p>样例输出</p>
+<p>1 1 2 3 1</p>
+<p>评测用例规模与约定</p>
+<p>　　1≤n≤1,000，读者的编号为不超过n的正整数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">n=iny(input())</span><br><span class="line">a=list(map(int,input().spilt()))</span><br><span class="line">d=&#123;&#125;</span><br><span class="line">res=[]</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> a:</span><br><span class="line">  <span class="keyword">if</span> i <span class="keyword">not</span> <span class="keyword">in</span> d:</span><br><span class="line">    d[i]=<span class="number">1</span></span><br><span class="line">   <span class="keyword">else</span>:</span><br><span class="line">    d[i]+=<span class="number">1</span></span><br><span class="line"> 	res.append(d[i])</span><br><span class="line"> <span class="keyword">for</span> i <span class="keyword">in</span> res:</span><br><span class="line">  print(<span class="string">'i'</span>)</span><br></pre></td></tr></table></figure>
+
+<h2 id="14-相邻数对"><a href="#14-相邻数对" class="headerlink" title="14.相邻数对"></a>14.相邻数对</h2><p>问题描述</p>
+<p>　　给定n个不同的整数，问这些数中有多少对整数，它们的值正好相差1。</p>
+<p>输入格式</p>
+<p>　　输入的第一行包含一个整数n，表示给定整数的个数。<br>　　第二行包含所给定的n个整数。</p>
+<p>输出格式</p>
+<p>　　输出一个整数，表示值正好相差1的数对的个数。</p>
+<p>样例输入</p>
+<p>6<br>10 2 6 3 7 8</p>
+<p>样例输出</p>
+<p>3</p>
+<p>样例说明</p>
+<p>　　值正好相差1的数对包括(2, 3), (6, 7), (7, 8)。</p>
+<p>评测用例规模与约定</p>
+<p>　　1&lt;=n&lt;=1000，给定的整数为不超过10000的非负整数。</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">n=int(input())</span><br><span class="line">a=list(map(int,input().spilt()))</span><br><span class="line">a.sort()</span><br><span class="line">count=<span class="number">0</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(n):</span><br><span class="line">  <span class="keyword">if</span>(a[i+<span class="number">1</span>]-a[i]=<span class="number">1</span>):</span><br><span class="line">    count+=<span class="number">1</span></span><br><span class="line">print(count)</span><br></pre></td></tr></table></figure>
+
+<h2 id="15-相反数"><a href="#15-相反数" class="headerlink" title="15.相反数"></a>15.相反数</h2><p>问题描述</p>
+<p>　　有 N 个非零且各不相同的整数。请你编一个程序求出它们中有多少对相反数(a 和 -a 为一对相反数)。</p>
+<p>输入格式</p>
+<p>　　第一行包含一个正整数 N。(1 ≤ N ≤ 500)。<br>　　第二行为 N 个用单个空格隔开的非零整数,每个数的绝对值不超过1000,保证这些整数各不相同。</p>
+<p>输出格式</p>
+<p>　　只输出一个整数,即这 N 个数中包含多少对相反数。</p>
+<p>样例输入</p>
+<p>5<br>1 2 3 -1 -2</p>
+<p>样例输出</p>
+<p>2</p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">n = int(input())</span><br><span class="line">a = list(map(int,input().split()))<span class="comment">#输入转化为列表</span></span><br><span class="line">b = set(map(abs,a))<span class="comment">#各项取绝对值后转化为集合，即除去相反的负数</span></span><br><span class="line">print(len(a)-len(b))<span class="comment">#原长度减去现长度，即被减去的相反数个数</span></span><br></pre></td></tr></table></figure>
 
 
       
@@ -260,7 +492,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/10/21/sort/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/04/ccf%E7%AE%97%E6%B3%95%E7%AC%94%E8%AE%B0%E7%AC%AC1%E9%A2%98/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -274,15 +506,20 @@
   
 <nav id="article-nav">
   
-    <a href="/2019/10/24/%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE/" id="article-nav-newer" class="article-nav-link-wrap">
+    <a href="/2019/11/13/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" id="article-nav-newer" class="article-nav-link-wrap">
       <i class="icon-circle-left"></i>
       <div class="article-nav-title">
         
-          二分查找
+          数据结构
         
       </div>
     </a>
   
+  
+    <a href="/2019/11/02/%E5%AD%97%E5%85%B8%E7%BB%93%E6%9E%84/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">字典结构</div>
+      <i class="icon-circle-right"></i>
+    </a>
   
 </nav>
 
